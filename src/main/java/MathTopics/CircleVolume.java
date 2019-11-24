@@ -11,7 +11,7 @@ public class CircleVolume implements ITopic {
 
 	@Override
 	public String NotifyTopic(int input) {
-
-		return "Input = 10\nCircle Volume = " + (double)88000 / 21;
+		
+		return "Input = 10\nCircle Volume = " + (double) 88000 / 21;
 	}
 }
