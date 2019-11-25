@@ -1,17 +1,22 @@
 package MathTopics;
 
-import git_assignment_initial.ITopic;
+import git_assignment_initial.*;
 
-//Please read CicleArea.java Code and implement as a clone of it but using your formula
 
 public class CircleVolume implements ITopic {
+
 	public static double GetCircleVolume(int r) {
-		return (double)88000 / 21;
+		return (double) (22 * 4 * r * r * r) / (7 * 3);
 	}
 
 	@Override
 	public String NotifyTopic(int input) {
-		
-		return "Input = 10\nCircle Volume = " + (double) 88000 / 21;
+
+		double ans = GetCircleVolume(input);
+
+		String output = PrintStyle.print(input, "Circle Volume") + ans;
+
+		return output;
 	}
 }
+
