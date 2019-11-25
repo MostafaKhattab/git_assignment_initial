@@ -5,7 +5,7 @@ import git_assignment_initial.*;
 public class CircleArea implements ITopic {
 
 	public static double GetCircleArea(int r) {
-		return (double)(22 * r * r) / 7;
+		return (double) (22 * r * r) / 7;
 	}
 
 	@Override

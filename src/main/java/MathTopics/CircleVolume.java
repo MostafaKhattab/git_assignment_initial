@@ -2,7 +2,6 @@ package MathTopics;
 
 import git_assignment_initial.*;
 
-
 public class CircleVolume implements ITopic {
 
 	public static double GetCircleVolume(int r) {
@@ -19,4 +18,3 @@ public class CircleVolume implements ITopic {
 		return output;
 	}
 }
-
