@@ -5,7 +5,7 @@ import MathTopics.*;
 public class Main {
 
 	public static void main(String[] args) {
-
+		
 		// Driver Code
 		Topic topic = new Topic();
 		

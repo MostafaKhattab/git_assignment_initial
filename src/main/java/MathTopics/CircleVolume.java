@@ -2,7 +2,6 @@ package MathTopics;
 
 import git_assignment_initial.*;
 
-
 public class CircleVolume implements ITopic {
 
 	public static double GetCircleVolume(int r) {
@@ -11,6 +10,7 @@ public class CircleVolume implements ITopic {
 
 	@Override
 	public String NotifyTopic(int input) {
+
 		double ans = GetCircleVolume(input);
 
 		String output = PrintStyle.print(input, "Circle Volume") + ans;
@@ -18,4 +18,3 @@ public class CircleVolume implements ITopic {
 		return output;
 	}
 }
-
