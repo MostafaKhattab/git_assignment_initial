@@ -5,14 +5,18 @@ import git_assignment_initial.ITopic;
 // Please read CicleArea.java Code and implement as a clone of it but using your formula
 
 public class CircleCircumference implements ITopic {
-	public static double GetCircleCircumference(int r) {
-		return (double)440 / 7;
-	}
+	 static double circumference(double r){ 
+		  
+	        double PI = 3.1415; 
+	        double cir = 2*PI*r; 
+	        return cir; 
+	    } 
 
 	@Override
-	public String NotifyTopic(int input) {
+	public String getCircleCircumference(int r) {
 
-		return "Input = 10\nCircle Circumference = " + (double)440 / 7;
+		double result = Math.round(circumference(r) * 1000) / 1000.0; 
+        System.out.println("Circumference = "+ result); 
 	}
 
 }
