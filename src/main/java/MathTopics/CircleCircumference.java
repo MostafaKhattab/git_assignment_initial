@@ -1,4 +1,6 @@
 
+package MathTopics;
+
 import git_assignment_initial.ITopic;
 import git_assignment_initial.PrintStyle;
 import git_assignment_initial.Topic;
