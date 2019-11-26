@@ -1,4 +1,3 @@
-package MathTopics;
 
 import git_assignment_initial.ITopic;
 import git_assignment_initial.PrintStyle;
