@@ -11,18 +11,19 @@ public class CircleCircumference implements ITopic {
     public CircleCircumference(){
     	this.input=0;
     }
-	public static double GetCircleCircumference(int r) {
-		    double PI = 22/7; 
-	        double cir = 2*PI*(double)r; 
-	        return cir; 
+	public static double GetCircleCircumference(int input) {
+		double pi=22/7;
+		  double circumference= pi * 2*input;
+	      return circumference; 
 	}
 
 	@Override
 	public String NotifyTopic(Topic topic) {
-        this.input=topic.getInput();
-        double result = Math.round(GetCircleCircumference(this.input) * 1000) / 1000.0; 
-        String output = PrintStyle.print(this.input, "Circle Circumference") + result;
+        long ans =GetCircleCircumference(int input);
+		String output = PrintStyle.print(input, "CircleCircumference") + ans;
         return output;
 	}
 
+	
+	
 }
