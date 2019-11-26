@@ -6,7 +6,7 @@ import git_assignment_initial.ITopic;
 
 public class TwoPowerN implements ITopic {
 	public static long Get2PN(int n) {
-		 return (long)(2 ^ n);
+		 return (long)(Math.pow(2, n)); 
 	}
 
 	@Override
