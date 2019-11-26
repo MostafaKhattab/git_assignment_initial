@@ -18,7 +18,7 @@ public class CircleCircumference implements ITopic  {
 		
 		
 		
-		long ans = circumference(input);
+		long ans = circumference(r);
 		ans=Math.round(circumference(r) * 1000) / 1000.0;
                  String output = PrintStyle.print(input, "Circumference") + ans;
                  return output;
