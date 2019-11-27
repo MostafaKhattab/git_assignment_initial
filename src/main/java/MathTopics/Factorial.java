@@ -6,12 +6,16 @@ import git_assignment_initial.ITopic;
 
 public class Factorial implements ITopic {
 	public static long GetFactorial(int n) {
-		return 3628800;
+		 if (n == 0) {
+	           return 1;
+	       } else {
+	           return n * GetFactorial(n - 1);
+	       }
 	}
 
 	@Override
-	public String NotifyTopic(int input) {
+	public String Factorial(int n) {
 
-		return "Input = 10\nFactorial = " + 3628800;
+		return "Input = 10\nFactorial = " + GetFactorial(int n);
 	}
 }
